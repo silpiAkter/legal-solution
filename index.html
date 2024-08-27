@@ -23,30 +23,10 @@
     </style>
 </head>
 <body>
-    <header class="max-w-6xl mx-auto">
+    <header class="max-w-6xl mx-auto p-5 overflow-hidden">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                      </svg>                      
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
                   <img src="images/logo2.png" alt="">
                 </div>
                 <div class="navbar-center hidden lg:flex">
@@ -74,8 +54,42 @@
                     </a></li>
                   </ul>
                 </div>
-                <div class="navbar-end">
-                  <a class="btn bg-[#B68C5A] text-white font-semibold text-lg px-7">Free Consultation</a>
+                <div class="navbar-end flex gap-3">
+                  <div class="hidden lg:block">
+                    <a class="btn bg-[#B68C5A] text-white font-semibold text-lg px-7">Free Consultation</a>
+                  </div>
+                  <div class="dropdown">
+                      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>                      
+                      </div>
+                      <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li class="text-base font-normal text-[#707070] text-bold"><a>Home</a></li>
+                      <li class="text-base font-normal text-[#707070] text-bold"><a>Cases
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                      </a></li>
+                      <li class="text-base font-normal text-[#707070] text-bold"><a>Cases
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                      </a></li>
+                      <li class="text-base font-normal text-[#707070] text-bold"><a>Blog
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                      </a></li>
+                      <li class="text-base font-normal text-[#707070] text-bold"><a>Contact Us
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                      </a></li>
+                      </ul>
+                  </div>
                 </div>
               </div>
         </nav>
@@ -83,8 +97,8 @@
         <div class="hero hero-bg bg-no-repeat bg-center rounded-xl py-[100px] my-12">
           <div class="hero-content text-neutral-content text-center">
             <div class="max-w-4xl mx-auto">
-              <h1 class="mb-5 text-7xl text-white font-extrabold leading-tight">We Provide Effective Legal Solutions</h1>
-              <p class="mb-5 max-w-xl mx-auto">
+              <h1 class="mb-5 text-4xl lg:text-7xl text-white font-extrabold leading-tight">We Provide Effective Legal Solutions</h1>
+              <p class="mb-5 max-w-xl mx-auto text-[]">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
               </p>
               <div class="flex max-w-2xl mx-auto gap-5 pt-5">
