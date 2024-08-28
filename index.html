@@ -13,6 +13,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
+      .eb-garamond{
+        font-family: "EB Garamond", serif;
+      }
+      .poppins{
+        font-family: "Poppins", sans-serif;
+      }
       .hero-bg{
         background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0) 100%), url(images/banner.png);
       }
@@ -20,10 +26,13 @@
         color: #414040;
         font-weight: 700;
       }
+      .bg-hover:hover{
+        background: linear-gradient(180.00deg, rgb(243, 243, 243),rgba(243, 243, 243, 0) 100%);
+      }
     </style>
 </head>
-<body>
-    <header class="max-w-6xl mx-auto p-5 overflow-hidden">
+<body class="poppins p-5">
+    <header class="max-w-6xl mx-auto overflow-hidden">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -97,7 +106,7 @@
         <div class="hero hero-bg bg-no-repeat bg-center rounded-xl py-[100px] my-12">
           <div class="hero-content text-neutral-content text-center">
             <div class="max-w-4xl mx-auto">
-              <h1 class="mb-5 text-4xl lg:text-7xl text-white font-extrabold leading-tight">We Provide Effective Legal Solutions</h1>
+              <h1 class="mb-5 text-4xl lg:text-7xl text-white font-extrabold leading-tight eb-garamond">We Provide Effective Legal Solutions</h1>
               <p class="mb-5 max-w-xl mx-auto text-[]">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
               </p>
@@ -109,8 +118,94 @@
           </div>
         </div>
     </header>
-    <main class="md:container md:mx-auto">
-
+    <main class="lg:max-w-6xl mx-auto overflow-hidden">
+      <!-- Legal Practice Area -->
+      <section class="my-24">
+        <div class=" mx-auto space-y-7">
+          <h3 class="text-3xl lg:text-4xl font-extrabold text-[#414040] text-center eb-garamond">The Legal Practice Area</h3>
+          <p class="text-base font-normal text-[#707070] text-center lg:w-3/5 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <!-- box-1 -->
+            <div class="p-5 space-y-8 max-w-sm mx-auto px-16 py-14 border-[#E7E7E7] border-b bg-hover">
+              <img class="max-w-full mx-auto" src="images/business.png" alt="">
+              <h4 class="eb-garamond text-2xl font-extrabold text-center text-[#414040]">Business Law</h4>
+              <p class="text-base font-normal text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="flex items-center justify-center">
+                <button class="btn bg-[#B68C5A] rounded-full p-3 text-white font-extrabold">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>              
+                </button>
+              </div>
+            </div>
+            <!-- box 2 -->
+            <div class="p-5 space-y-8 max-w-sm mx-auto px-16 py-14 bg-hover border-[#E7E7E7] border-x ">
+              <img class="max-w-full mx-auto" src="images/criminal.png" alt="">
+              <h4 class="eb-garamond text-2xl font-extrabold text-center text-[#414040]">Criminal Law</h4>
+              <p class="text-base font-normal text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="flex items-center justify-center">
+                <button class="btn bg-[#B68C5A] rounded-full p-3 text-white font-extrabold">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>              
+                </button>
+              </div>
+            </div>
+            <!-- box  3 -->
+            <div class="p-5 space-y-8 max-w-sm mx-auto px-16 py-14 border-[#E7E7E7] border-b bg-hover">
+              <img class="max-w-full mx-auto" src="images/child.png" alt="">
+              <h4 class="eb-garamond text-2xl font-extrabold text-center text-[#414040]">Child Support</h4>
+              <p class="text-base font-normal text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="flex items-center justify-center">
+                <button class="btn bg-[#B68C5A] rounded-full p-3 text-white font-extrabold">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>              
+                </button>
+              </div>
+            </div>
+            <!-- box -4 -->
+            <div class="p-5 space-y-8 max-w-sm mx-auto px-16 py-14 bg-hover">
+              <img class="max-w-full mx-auto" src="images/education.png" alt="">
+              <h4 class="eb-garamond text-2xl font-extrabold text-center text-[#414040]">Education Law</h4>
+              <p class="text-base font-normal text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="flex items-center justify-center">
+                <button class="btn bg-[#B68C5A] rounded-full p-3 text-white font-extrabold">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>              
+                </button>
+              </div>
+            </div>
+            <!-- box 5 -->
+            <div class="p-5 space-y-8 max-w-sm mx-auto px-16 py-14 border-[#E7E7E7] border-x border-t bg-hover">
+              <img class="max-w-full mx-auto" src="images/divorce.png" alt="">
+              <h4 class="eb-garamond text-2xl font-extrabold text-center text-[#414040]">Divorce Law</h4>
+              <p class="text-base font-normal text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="flex items-center justify-center">
+                <button class="btn bg-[#B68C5A] rounded-full p-3 text-white font-extrabold">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>              
+                </button>
+              </div>
+            </div>
+            <!-- box 6 -->
+            <div class="p-5 space-y-8 max-w-sm mx-auto px-16 py-14 border-[#E7E7E7] bg-hover">
+              <img class="max-w-full mx-auto" src="images/tax.png" alt="">
+              <h4 class="eb-garamond text-2xl font-extrabold text-center text-[#414040]">Tax Law</h4>
+              <p class="text-base font-normal text-[#707070] text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              <div class="flex items-center justify-center">
+                <button class="btn bg-[#B68C5A] rounded-full p-3 text-white font-extrabold">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>              
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
 
