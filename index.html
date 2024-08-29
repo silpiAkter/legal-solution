@@ -40,8 +40,8 @@
       }
     </style>
 </head>
-<body class="poppins p-5">
-    <header class="max-w-6xl mx-auto overflow-hidden">
+<body class="poppins">
+    <header class="max-w-6xl mx-auto overflow-hidden p-5">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -127,7 +127,7 @@
           </div>
         </div>
     </header>
-    <main class="lg:max-w-6xl mx-auto overflow-hidden">
+    <main class="lg:max-w-6xl mx-auto overflow-hidden p-5">
       <!-- Legal Practice Area -->
       <section class="my-24">
         <div class=" mx-auto space-y-7">
@@ -401,15 +401,55 @@
                 <textarea name="" id="" cols="70" rows="5" placeholder="Your Message" class="outline-none bg-transparent p-3"></textarea>
               </div>
               <div class="w-full bg-[#B68C5A] rounded-lg text-center">
-                <input type="submit" value="Send Message" name="" id="" class="outline-none bg-transparent p-3 text-[#E7E7E7]">
+                <input type="submit" value="Send Message" name="" id="" class="outline-none bg-transparent p-3 text-[#E7E7E7] font-bold cursor-pointer">
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-
+    <footer class="footer bg-[#111111] p-10 lg:py-28 overflow-hidden">
+      <div class="lg:max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 space-y-7">
+        <div class="space-y-5">
+          <img src="images/logo.png" alt="">
+          <p class="w-3/4 text-[#CFCFCF]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+        <nav class="grid space-y-5">
+          <h6 class="footer-title text-white">Usefull Link</h6>
+          <a class="link link-hover text-[#CFCFCF]">Homes</a>
+          <a class="link link-hover text-[#CFCFCF]">About Us</a>
+          <a class="link link-hover text-[#CFCFCF]">Cases</a>
+          <a class="link link-hover text-[#CFCFCF]">Blog</a>
+          <a class="link link-hover text-[#CFCFCF]">Contact Us</a>
+        </nav>
+        <nav class="grid space-y-5">
+          <h6 class="footer-title text-white">Contact Now</h6>
+          <a class="link link-hover text-[#CFCFCF]">555 4th 5t NW, Washington<br>
+            DC 20530, United States</a>
+          <a class="link link-hover text-[#CFCFCF]">+88 01750 000 000<br>
+            +88 01750 000 000</a>
+          <a class="link link-hover text-[#CFCFCF]">info@gmail.com <br>
+            info@gmail.com</a>
+        </nav>
+        <form class="grid space-y-5">
+          <h6 class="footer-title text-white">Subscribe</h6>
+          <fieldset class="form-control w-48j space-y-5">
+            <label class="label">
+              <span class="label-text text-[#CFCFCF]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="input input-bordered join-item rounded-lg font-bold" />
+              <button class="btn bg-[#B68C5A] join-item text-white font-bold"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 rotate-[310deg]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+              </svg>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </footer>
 </body>
 </html>
